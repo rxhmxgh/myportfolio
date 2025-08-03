@@ -1,0 +1,64 @@
+.experience-section {
+  padding: 60px 20px;
+  color: #ffffff;
+  background-color: black;
+  padding: 5rem 9% 5rem;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.experience-text {
+  flex: 1 1 60%;
+  padding-right: 30px;
+  
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #b74b4b;
+  text-align: center;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #dcdde1;
+}
+
+.experience-download {
+  flex: 1 1 30%;
+  text-align: right;
+}
+.profile-photo {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.download-btn {
+  padding: 14px 30px;
+  background-color: #450606;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: inline-block;
+}
+
+.download-btn:hover {
+  background-color: #773838;
+  transform: scale(1.05);
+}

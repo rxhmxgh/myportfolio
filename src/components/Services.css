@@ -1,0 +1,36 @@
+.services-section {
+  padding: 50px 60px;
+   background-color: black;
+  padding: 5rem 9% 5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 4.5em;
+  margin-bottom: 30px;
+  color: #b74b4b;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: #1a1a1a;
+  border: 1px solid #b74b4b;
+  padding: 40px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+   font-size: 16px;
+}
+
+
+.service-card:hover {
+  transform: translateY(-10px);
+  border-color: #ff6b6b;
+}

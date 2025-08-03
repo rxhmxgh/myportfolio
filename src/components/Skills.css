@@ -1,0 +1,33 @@
+.skills-section {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #000000, #2f0707); /* ton bleu/violet foncé */
+  color: #ffffff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 4.5em;
+  margin-bottom: 40px;
+  color: #b74b4b;
+  font-weight: bold;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.skill h3 {
+  font-size: 22px;
+  color: #c45959; /* violet clair pour les titres */
+  margin-bottom: 8px;
+}
+
+.skill p {
+  font-size: 16px;
+  color: #dfe6e9; /* gris très clair */
+  margin: 0;
+}
