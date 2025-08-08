@@ -1,7 +1,7 @@
 /* src/components/Footer.css */
 
 .footer {
-  background-color: black;
+  background: linear-gradient(135deg, #000000, #2f0707); /* ton bleu/violet foncé */
   padding: 5rem 9% 5rem;
   color: #f1f1f1;
   padding: 40px 40px;
